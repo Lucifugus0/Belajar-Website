@@ -1,0 +1,97 @@
+header,
+footer {
+  background-color: #3ca071;
+}
+
+body {
+  background-size: cover;
+  background-image: url('../image/backgroundterangpattern.png');
+  background-attachment: fixed;
+  height: 100%;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.navbar-brand {
+  animation: fade-down 700ms;
+}
+.nav-link {
+  animation: fade-down 700ms;
+}
+
+#aboutus {
+  animation: fade-up 700ms;
+}
+table {
+  animation: fade-up 700ms;
+}
+
+section {
+  animation: fade-up 700ms;
+}
+#performance {
+  animation: fade-up 700ms;
+}
+
+#contact {
+  animation: fade-up 700ms;
+}
+
+h1 {
+  color: #36a16d;
+  font-size: 600%;
+  padding-top: 2em;
+}
+
+.card {
+  background-color: white;
+}
+
+#custom-p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+th {
+  font-size: 20px;
+}
+
+td {
+  font-size: 16px;
+}
+
+.dropdown-item:hover {
+  background-color: #3ca071;
+}
+
+.imagee:hover {
+  transform: scale(1.2);
+}
+
+.hover:hover {
+  transform: scale(1.01);
+}
